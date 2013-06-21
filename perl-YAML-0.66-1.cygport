@@ -1,8 +1,0 @@
-CPAN_AUTHOR=ingy
-inherit perl
-
-src_compile() {
-	lndirs
-	cd ${B}
-	yes | perl_compile
-}
